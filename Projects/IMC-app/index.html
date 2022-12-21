@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-calculator">
+            <header>
+                <h1>IMC CALCULATOR</h1>
+            </header>
+
+            <main>
+                <form action="">
+                    <section>
+                        <label for="height">Sua altura</label>
+                        <input type="number" id="height" placeholder="cm">
+                    </section>
+
+                    <section>
+                        <label for="weight">Seu peso</label>
+                        <input type="number" id="weight" placeholder="kg">
+                    </section>
+
+                    <button class="calculateButton">CALCULAR</button>
+                </form>
+            </main>
+        </div>
+    </div>
+
+    <aside>
+        <h2>SEU RESULTADO</h2>
+        <p class="result"></p>
+    </aside>
+
+    <footer>
+        &copy; Curso DevWeb
+    </footer>
+
+    <div class="containerModal">
+        <div class="modal">
+            <P class="result">Seu IMC é 23.96 peso normal</P>
+            <button class="closeButton">X</button>
+        </div>
+</body>
+</html>
